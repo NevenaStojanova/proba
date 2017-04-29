@@ -40,6 +40,7 @@
             this.tbProsek = new System.Windows.Forms.TextBox();
             this.tbNajvisokProsek = new System.Windows.Forms.TextBox();
             this.btnGeneriraj = new System.Windows.Forms.Button();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
             ((System.ComponentModel.ISupportInitialize)(this.nudBrPredmeti)).BeginInit();
             this.SuspendLayout();
             // 
@@ -165,11 +166,23 @@
             this.btnGeneriraj.UseVisualStyleBackColor = true;
             this.btnGeneriraj.Click += new System.EventHandler(this.btnGeneriraj_Click);
             // 
+            // radioButton1
+            // 
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.Location = new System.Drawing.Point(240, 154);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(85, 17);
+            this.radioButton1.TabIndex = 12;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "radioButton1";
+            this.radioButton1.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(578, 475);
+            this.Controls.Add(this.radioButton1);
             this.Controls.Add(this.btnGeneriraj);
             this.Controls.Add(this.tbNajvisokProsek);
             this.Controls.Add(this.tbProsek);
@@ -205,6 +218,7 @@
         private System.Windows.Forms.TextBox tbProsek;
         private System.Windows.Forms.TextBox tbNajvisokProsek;
         private System.Windows.Forms.Button btnGeneriraj;
+        private System.Windows.Forms.RadioButton radioButton1;
     }
 }
 
